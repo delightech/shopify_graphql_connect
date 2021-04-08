@@ -5,7 +5,7 @@ Original rake task's source(with rails): https://github.com/Shopify/shopify_api/
 # Procedure
 ```bash
 $ bundle
-$ bundle exec rake shopify_api:graphql:dump SHOP_URL="https://API_KEY:PASSWORD@SHOP_NAME.myshopify.com" API_VERSION=2021-01 -f task.rake
+$ bundle exec rake shopify_api:graphql:dump SHOP_URL="https://${API_KEY}:${PASSWORD}@${SHOP_NAME}.myshopify.com" API_VERSION=2021-01 -f task.rake
 $ bundle exec ruby fetch_test.rb
 ```
 
