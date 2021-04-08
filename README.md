@@ -1,6 +1,6 @@
 # README
 Codes for executing GraphQL for shopify_api without rails.<br>
-Original source(with rails): https://github.com/Shopify/shopify_api/blob/master/lib/shopify_api/graphql/task.rake
+Original rake task's source(with rails): https://github.com/Shopify/shopify_api/blob/master/lib/shopify_api/graphql/task.rake
 
 # Procedure
 ```bash
