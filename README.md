@@ -15,7 +15,7 @@ API version and authentication is required (either OAuth or private app).<br>
 <br>
 Dump the schema file for the 2021-01 API version using private app authentication:<br>
 ```bash
-$ bundle exec rake shopify_api:graphql:dump SHOP_URL="https://API_KEY:PASSWORD@SHOP_NAME.myshopify.com" API_VERSION=2021-01 -f task.rake
+$ bundle exec rake shopify_api:graphql:dump SHOP_URL="https://$API_KEY:$PASSWORD@$SHOP_NAME.myshopify.com" API_VERSION=2021-01 -f task.rake
 ```
 
 ## Execute GraphQL example
