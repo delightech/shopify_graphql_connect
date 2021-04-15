@@ -3,4 +3,4 @@
 require 'rake'
 require 'shopify_api'
 
-load Dir.glob('**/*/shopify_api/graphql/task.rake')[0]
+load 'shopify_api/graphql/task.rake'
