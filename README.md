@@ -1,6 +1,10 @@
 # README
 Example codes for executing GraphQL for shopify_api without rails.<br>
-Original rake task's source(with rails): https://github.com/Shopify/shopify_api/blob/master/lib/shopify_api/graphql/task.rake
+Original rake task's source(with rails): https://github.com/Shopify/shopify_api/blob/master/lib/shopify_api/graphql/task.rake<br>
+<br>
+If you want to execute shopify's graphql without rails, pleae check Rakefile.
+For using shopify's graphql without rails, you have to require shopify_api gem and load shopify/graphql/task.rake
+After that, you can execute `bundle exec rake shopify_api:graphql:dump`
 
 # Procedure
 ```bash
